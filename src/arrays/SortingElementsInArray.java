@@ -1,20 +1,20 @@
 package arrays;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class SortingElementsInArray {
     public static void main(String[] args) {
-        int[] arr = {200, 100, 500, 300, 600};
+        Integer[] arr = {200, 100, 500, 300, 600};
 
-        System.out.println("Before sorting: ");
+        System.out.println("Before sorting: " + Arrays.toString(arr));
 //        for(int x:arr) {
 //            System.out.println(x);
 //        }
-        System.out.println(Arrays.toString(arr));
 
-        Arrays.sort(arr);
+        //Arrays.sort(arr);
+        Arrays.sort(arr, Collections.reverseOrder()); // doesn't support primitive data types
 
-        System.out.println("After sorting: ");
-        System.out.println(Arrays.toString(arr));
+        System.out.println("After sorting: " + Arrays.toString(arr));
     }
 }

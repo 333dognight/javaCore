@@ -9,8 +9,8 @@ public class SortingElementsInArrayWithLoop {
 
         System.out.println("Before sorting: " + Arrays.toString(a));
 
-        for (int i=0; i<n-1; i++) {
-            for (int j=0; j<n-1; j++) {
+        for (int i=0; i<n-1; i++) {               //Passes
+            for (int j=0; j<n-1; j++) {           //Iterations
                 if(a[j] > a[j+1]) {
                     int temp = a[j];
                     a[j] = a[j+1];
