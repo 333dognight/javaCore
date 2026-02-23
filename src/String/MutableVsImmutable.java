@@ -11,10 +11,15 @@ public class MutableVsImmutable {
 
         System.out.println(Arrays.toString(a)); //array has been changed after sorting
 
+
         String s = "welcome"; //immutable
         System.out.println(s);
         s.concat("to java");
         System.out.println(s); //nothing has changed because String (and only String) is immutable
 
+
+        StringBuilder s2 = new StringBuilder("welcome"); //mutable
+        s2.append(" to java");
+        System.out.println(s2);
     }
 }
