@@ -58,6 +58,5 @@ public class StringMethods {
         System.out.println(arr1[0]);
         System.out.println(arr2[0]);
         System.out.println(arr2[1]);
-
     }
 }
