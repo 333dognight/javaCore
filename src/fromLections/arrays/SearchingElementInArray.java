@@ -1,4 +1,4 @@
-package arrays;
+package fromLections.arrays;
 
 public class SearchingElementInArray {
     public void main(String[] args) {

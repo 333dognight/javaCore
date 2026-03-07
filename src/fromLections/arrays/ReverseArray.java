@@ -1,6 +1,4 @@
-package arrays;
-
-import java.util.Arrays;
+package fromLections.arrays;
 
 public class ReverseArray {
     public static void main(String[] args) {

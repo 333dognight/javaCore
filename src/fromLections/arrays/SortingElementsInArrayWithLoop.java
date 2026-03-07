@@ -1,4 +1,4 @@
-package arrays;
+package fromLections.arrays;
 
 import java.util.Arrays;
 

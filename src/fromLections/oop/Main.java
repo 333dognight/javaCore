@@ -1,4 +1,4 @@
-package oop;
+package fromLections.oop;
 
 import codeWars.CodeWars;
 

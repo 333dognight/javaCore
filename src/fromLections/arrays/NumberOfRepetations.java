@@ -1,4 +1,4 @@
-package arrays;
+package fromLections.arrays;
 
 public class NumberOfRepetations {
     public void main(String[] args) {

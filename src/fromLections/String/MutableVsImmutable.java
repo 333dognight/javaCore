@@ -1,4 +1,4 @@
-package String;
+package fromLections.String;
 
 import java.util.Arrays;
 
@@ -15,7 +15,7 @@ public class MutableVsImmutable {
         String s = "welcome"; //immutable
         System.out.println(s);
         s.concat("to java");
-        System.out.println(s); //nothing has changed because String (and only String) is immutable
+        System.out.println(s); //nothing has changed because fromLections.String (and only fromLections.String) is immutable
 
 
         StringBuilder s2 = new StringBuilder("welcome"); //mutable

@@ -1,4 +1,4 @@
-package String;
+package fromLections.String;
 
 public class ReverseAString {
     public static void main(String[] args) {

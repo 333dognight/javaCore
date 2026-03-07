@@ -1,8 +1,4 @@
-package oop;
-
-import java.util.List;
-
-import static oop.ABC.m1;
+package fromLections.oop;
 
 public class OverridingVsOverloading {
     public static void main(String[] args) {
