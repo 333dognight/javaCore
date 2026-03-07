@@ -1,14 +1,32 @@
 package fromLections.oop;
 
+/*
+Method overriding:
+1) Possible only in multiple classes (inheritance)
+2) We should not change the signature of the method but body we should change
+3) Method names are same
+4) belongs to INHERITANCE
+
+Method overloading:
+1) Possible in single and multiple classes (inheritance)
+2) We should change the signature of the method
+3) Method names are SAME
+4) Belongs to POLYMORPHISM
+ */
+
+
 public class OverridingVsOverloading {
     public static void main(String[] args) {
         XYZ xyz = new XYZ();
+        ABC abc = new ABC();
+
+        abc.m1(220.20);
         xyz.m1(100);
     }
 }
 
 class ABC {
-    public static String m1(String string) {
+    public String reverseString(String string) {
         String revStr = "";
         char[] charStr = string.toCharArray();
 
@@ -16,6 +34,10 @@ class ABC {
             revStr += charStr[i];
         }
         return revStr;
+    }
+
+    public void m1(double salary) {
+        System.out.println(salary);
     }
 }
 
@@ -28,8 +50,6 @@ class XYZ extends ABC {
         return string;
     }
 
-    public static String numberToString(int num) {
-        return String.valueOf(num); // Return a string of the number here!
-    }
+    String newString = reverseString("welcome to Java");
 
 }

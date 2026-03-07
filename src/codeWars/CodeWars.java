@@ -25,8 +25,8 @@ public class CodeWars {
                 }
             }
         }
-        //return count;
+        return count;
 
-        return (int) str.chars().filter(c -> "aeiou".indexOf(c) >= 0).count();
+        //return (int) str.chars().filter(c -> "aeiou".indexOf(c) >= 0).count();
     }
 }
