@@ -18,15 +18,15 @@ public class CodeWars {
         int count = 0;
         char[] strChar = str.toCharArray();
 
-        for(int i=0; i<str.length(); i++) {
-            for (char c : strChar) {
-                if (str.charAt(i) == c) {
-                    count += 1;
-                }
-            }
-        }
-        return count;
+//        for(int i=0; i<str.length(); i++) {
+//            for (char c : strChar) {
+//                if (str.charAt(i) == c) {
+//                    count += 1;
+//                }
+//            }
+//        }
+//        return count;
 
-        //return (int) str.chars().filter(c -> "aeiou".indexOf(c) >= 0).count();
+        return (int) str.chars().filter(c -> "aeiou".indexOf(c) >= 0).count();
     }
 }
